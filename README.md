@@ -79,11 +79,12 @@ Paste the following code into your Lambda function:
 ### 5. 🧪 Testing the API
 
 - Test API Using Two methods:-
+
     1. Using curl command:- 
 
- <!-- curl -X POST https://<your-api-id>.execute-api.<region>.amazonaws.com/Prod/analyze \
-  -H "Content-Type: application/json" \
-  -d '{"text": "Wellcome, To AWS Serverless Text Analyzer API!"}' -->
+   curl -X POST https://<your-api-id>.execute-api.<region>.amazonaws.com/Prod/analyze \
+   -H "Content-Type: application/json" \
+   -d '{"text": "Wellcome, To AWS Serverless Text Analyzer API!"}' 
 
     
    2. Using Postman :- 
@@ -113,12 +114,12 @@ Paste the following code into your Lambda function:
                   } -->
 
 **Expected Responce**
-<!--{
+{
     "id": "a6a4c1d0-6fce-4669-814c-0de35308618d",
     "text": "Wellcome, To AWS Serverless Text Analyzer API!",
     "word_count": 7,
     "char_count": 46
-} -->
+}
 
 
 
