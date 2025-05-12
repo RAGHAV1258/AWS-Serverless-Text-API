@@ -109,9 +109,9 @@ Paste the following code into your Lambda function:
        
        - Select **raw** 
           - From the Dropdown Select **JSON** Type Document And Enter this :-
-             <!-- {
+                  {
                    "text": "Wellcome, To AWS Serverless Text Analyzer API!"
-                  } -->
+                  }
 
 **Expected Responce**
 {
